@@ -1,0 +1,17 @@
+extends baseEmail
+
+block content
+        p Hi #{firstName},
+        p Welcome to Natours, we're glad to have you
+        p Thank you for trying to use this project and sign up! Remember that you can have a photo on your user, try it out.
+        table.btn.btn-primary(role='presentation', border='0', cellpadding='0', cellspacing='0')
+            tbody
+                tr
+                    td(align='left')
+                        table(role='presentation', border='0', cellpadding='0', cellspacing='0')
+                            tbody
+                                tr
+                                    td
+                                        a(href=`${url}`, target='_blank') Upload user photo
+        p If you want to work with me or want more details about this project don't hesitate in contacting me.
+        p - Felipe Stuart.
