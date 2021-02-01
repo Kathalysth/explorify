@@ -52,6 +52,15 @@ I used:
 
 Every line of code is in this repository except for the node_modules folder and the .env files where all the sensitive data should be.
 
+## I want to try the page but without signin up
+
+You can try one of this test users if you wish:
+
+- laura@example.com pass: test1234
+- leo@example.com pass: test1234
+
+For security measures this are on "user" roles. If you want to try lead-guides permission contact me personally.
+
 ## Thank you for reading! Remember to contact me on LinkedIn or my email. The live page should be on the repository description.
 
 Made in Argentina by Felipe Stuart.

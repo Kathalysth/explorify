@@ -6,9 +6,8 @@
   "scripts": {
     "start": "nodemon server.js",
     "start:prod": "SET NODE_ENV=production&& nodemon server.js",
-    "maildev": "maildev",
     "debug": "ndb server.js",
-    "watch:js": "webpack"
+    "build": "webpack"
   },
   "keywords": [
     "api",
@@ -22,6 +21,7 @@
     "@sendgrid/mail": "^7.4.2",
     "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",

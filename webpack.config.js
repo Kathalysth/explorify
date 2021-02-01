@@ -7,7 +7,7 @@ module.exports = {
         path: path.resolve(__dirname, 'public/js'),
         filename: 'bundle.js'
     },
-    watch: true,
+    //watch: true,
   /*   devtool: 'inline-source-map',
     devServer: {
         publicPath: './public/js',
