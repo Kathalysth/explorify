@@ -4,7 +4,8 @@
   "description": "learning node, express and mongodb",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
     "start:prod": "SET NODE_ENV=production&& nodemon server.js",
     "debug": "ndb server.js",
     "build": "webpack"
@@ -60,5 +61,8 @@
     "webpack": "^5.18.0",
     "webpack-cli": "^4.4.0",
     "webpack-dev-server": "^3.11.2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
