@@ -1,7 +1,7 @@
 {
-  "name": "natours-api",
-  "version": "1.0.0",
-  "description": "learning node, express and mongodb",
+  "name": "explorify-api",
+  "version": "1.3.0",
+  "description": "Tours page and api project node, express, mongodb and more",
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
