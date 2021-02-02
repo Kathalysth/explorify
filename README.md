@@ -12,6 +12,7 @@ This is the list of things that you can try on this page:
 - Book a Tour (only logged in)(made possible with Stripe API)
 - Update your user information (only logged in)
 - Update your password (only logged in)
+- Update your profile picture (only logged in)
 - See your bookings (only logged in)
 - Keep being logged in thanks to cookies and jwt
 
@@ -29,9 +30,11 @@ This APP consist of this pages for now:
 - Billing Page (will never be implemented because this is not a real business page)
 - Tour Guides and Admins Private Adminitrative Pages (not yet implemented)
 
+There are alot more API functionalities that aren't implemented in the page yet, which are every CRUD operation on the 4 collections: Reviews, Users, Tours and Bookings. You can try some on postman if you like.
+
 ## How does it work?
 
-The pages are Server Side Rendered by Node.js with Pug as the view engine. Almost all data seen on the pages are not strictly written but dynamically brought from the API. When the user hits one of the routes a request is made to the API and it GETS, POST, PATCH or DELETES according to the specific route. Every password is encrypted before saving it to the database. There is a huge amount of effort put in making this page really secure.
+The pages are Server Side Rendered by Node.js with Pug as the view engine. Almost all data seen on the pages are not strictly written but dynamically brought from the API. When the user hits one of the routes a request is made to the API and it GETS, POST, PATCH or DELETES according to the specific route. Every password is encrypted before saving it to the database. There is a huge amount of effort put in making this page really secure. Also every possible error is covered.
 
 ## What other technologies did you use?
 
