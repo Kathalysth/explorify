@@ -55,12 +55,16 @@ I used:
 
 Every line of code is in this repository except for the node_modules folder and the .env files where all the sensitive data should be.
 
-## I want to try the page but without signin up
+## I want to try the page but without signin up or buying anything
 
 You can try one of this test users if you wish:
 
 - laura@example.com pass: test1234
 - leo@example.com pass: test1234
+- loulou@example.com pass: test1234
+
+You can use a fake credit card number that will simulate a successful payment: 4242 4242 4242
+On the rest of the inputs just complete with many 2. The name can be whatever you want.
 
 For security measures this are on "user" roles. If you want to try lead-guides permission contact me personally.
 
