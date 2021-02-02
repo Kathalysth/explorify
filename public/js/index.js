@@ -7,7 +7,7 @@ import { signup } from './signup'
 import { updateSettings } from './updateSettings'
 import { bookTour } from './stripe'
 import { getMyBookings } from './getMyBookings'
-//import { showAlert } from './alerts'
+import { showAlert } from './alerts'
 
 
 // DOM ELEMENTS
@@ -100,3 +100,6 @@ if(bookBtn) {
        
 })
 }
+
+const alertMessage = document.querySelector('body').dataset.alert;
+if(alertMessage) showAlert('success', alertMessage, 15)
